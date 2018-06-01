@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="97913" started-at="2018-06-01T04:54:35Z" finished-at="2018-06-01T04:56:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="97913" started-at="2018-06-01T04:54:35Z" finished-at="2018-06-01T04:56:13Z">
+      <class name="com.mercurytours.com.extentreport.TestNG">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.mercurytours.com.extentreport.TestNG@3fee9989]" name="setup" is-config="true" duration-ms="435" started-at="2018-06-01T04:54:35Z" finished-at="2018-06-01T04:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="method()[pri:0, instance:com.mercurytours.com.extentreport.TestNG@3fee9989]" name="method" duration-ms="97443" started-at="2018-06-01T04:54:35Z" finished-at="2018-06-01T04:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method -->
+        <test-method status="PASS" signature="captureStatus(org.testng.ITestResult)[pri:0, instance:com.mercurytours.com.extentreport.TestNG@3fee9989]" name="captureStatus" is-config="true" duration-ms="23" started-at="2018-06-01T04:56:13Z" finished-at="2018-06-01T04:56:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=method status=SUCCESS method=TestNG.method()[pri:0, instance:com.mercurytours.com.extentreport.TestNG@3fee9989] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureStatus -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.mercurytours.com.extentreport.TestNG@3fee9989]" name="cleanUp" is-config="true" duration-ms="407" started-at="2018-06-01T04:56:13Z" finished-at="2018-06-01T04:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.mercurytours.com.extentreport.TestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
